@@ -56,7 +56,8 @@
     opacity: 0.5;
 }
 
-.main h2 {
+.main a {
+    font-size: 0.9rem;
     margin: auto;
     width: 84%;
     color: hsl(0, 0%, 100%);
@@ -116,6 +117,15 @@ hr {
     bottom: -8px;
     border: 1px solid white;
     border-radius: 15px;
+}
+
+.creator-link, .main a {
+    text-decoration: none;
+    color: white;
+}
+
+.creator-link:hover, .main a:hover {
+    color: hsl(178, 100%, 50%);
 }
 
 footer {
